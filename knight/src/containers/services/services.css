@@ -1,0 +1,25 @@
+.services-container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-content {
+    background-color: #FFF1DC;
+    display: flex;
+    margin-top: 5%;
+    height: 350px;
+    margin-bottom: 10%;
+}
+
+.services-cleaning-images {
+    height: 450px;
+}
+
+.services-landscaping-images {
+    height: 450px;
+}
+
+.services-powerwashing-images {
+    height: 450px;
+}

@@ -1,0 +1,110 @@
+.header-container {
+    background-color: #1C202B;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    padding-top: 8%;
+    max-width: 1400px;
+    z-index: 9;
+    justify-content: space-evenly;
+    padding-bottom: 8%;
+}
+
+.cleaningcrew {
+    width: 35%;
+    position: relative;
+    z-index: 9;
+}
+
+.header-text {
+    width: 50%;
+}
+
+.header-h1 {
+    font-size: 3.5rem;
+
+}
+
+.header-p {
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.header-button {
+    margin-top: 5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    border-width: 7px;
+    border-color: #EA3E3A;
+    color: #E36626;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.header-button:active {
+    transform: scale(0.9);
+}
+
+.orange-top-design {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 900px;
+}
+
+.star {
+    width: 50px;
+    position: absolute;
+    z-index: 9;
+}
+
+.thick-star1 {
+    left: 0;
+    top: 10%;
+}
+
+.thick-star2 {
+    right: 5%;
+    top: 5%
+}
+
+.thick-star3 {
+    top: 35%;
+    right: 43%;
+}
+
+.thick-star4 {
+    bottom: 5%;
+    right: 22%;
+}
+
+.thin-star1 {
+    top: 1%;
+    left: 35%
+}
+
+.thin-star2 {
+    top: 11%;
+    right: 32%
+}
+
+.thin-star3 {
+    right: 1%;
+    top: 45%;
+}
+
+.thin-star4 {
+    left: 30%;
+    bottom: 15%;
+}
+

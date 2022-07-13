@@ -1,0 +1,35 @@
+.navbar-max-width {
+    width: 100%;
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 17rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.link-services, .link-contact {
+   
+    color: white;
+    text-decoration: none;
+}
+
+.link-services:visited, .link-contact:visited {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.link-services-h1, .link-contact-h1 {
+    font-style: normal;
+    font-weight: 400;
+}

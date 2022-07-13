@@ -1,0 +1,11 @@
+.add-container {
+    background-color: #4A4A4A;
+    color: white;
+    width: 100%;
+}
+
+.add-container > h1 {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

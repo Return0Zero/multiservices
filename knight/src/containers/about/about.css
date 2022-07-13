@@ -1,0 +1,38 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 8%;
+}
+
+.about-content {
+    position: relative;
+    display: flex;
+    padding-top: 8%;
+    z-index: 9;
+    justify-content: space-evenly;
+    max-width: 1400px;
+}
+
+
+.orange-bottom-design {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 900px;
+}
+
+.about-text-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vertical-dark-logo {
+    width: 30%;
+}
+
+.service-areas {
+    display: flex;
+    justify-content: space-evenly;
+}
