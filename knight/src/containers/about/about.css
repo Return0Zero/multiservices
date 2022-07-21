@@ -2,16 +2,22 @@
     display: flex;
     justify-content: center;
     position: relative;
-    padding-bottom: 8%;
+    padding-bottom: 6%;
 }
 
 .about-content {
     position: relative;
-    display: flex;
     padding-top: 8%;
     z-index: 9;
     justify-content: space-evenly;
-    max-width: 1400px;
+    max-width: 1600px;
+}
+
+.about-content h2 {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 4%;
 }
 
 
@@ -25,14 +31,26 @@
 
 .about-text-logo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .vertical-dark-logo {
     width: 30%;
+    position: relative;
+    z-index: 9;
 }
 
 .service-areas {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 6%;
+}
+
+.about-text {
+    width: 50%;
+    font-size: 1.7rem;
+}
+
+.about-text p {
+    padding-bottom: 2%;
 }

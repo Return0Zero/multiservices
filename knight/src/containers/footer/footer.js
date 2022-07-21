@@ -3,7 +3,7 @@ import './footer.css';
 function Footer() {
   return (
     <div className="footer-container">
-      <h1>Footer</h1>
+      <p>© Copyright 2022 Knight Multiservices - All Rights Reserved</p>
     </div>
   );
 }

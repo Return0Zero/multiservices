@@ -10,9 +10,9 @@ function About() {
         <div className="about-text-logo">
           <img src={VerticalDarkLogo} alt="Logo" className="vertical-dark-logo"/>
           <div className="about-text">
-            <p>A reliable Family-Owned business focus on keeping the highest standards with a touch of home.</p>
+            <p>A reliable <b>Family-Owned</b> business focus on keeping the highest standards with a touch of home.</p>
             <p>We are a leading company in the area providing Commercial and Residential Cleaning, Lawn Care Maintenance, Gutter Cleaning, Power Washing, and more!</p>
-            <p>Currently serving Ashburn and the following areas:</p>
+            <p>Currently serving <b>Ashburn</b> and the following areas:</p>
             <div className="service-areas">
               <ul>
                 <li>Leesburgy</li>
@@ -38,6 +38,7 @@ function About() {
             </div>
           </div>
         </div>
+        <h2>Because we believe your weekends weren't made for housework.</h2>
       </div>
     </div>
   );

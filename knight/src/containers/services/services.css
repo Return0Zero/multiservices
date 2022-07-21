@@ -1,5 +1,5 @@
 .services-container {
-    max-width: 1400px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -7,19 +7,261 @@
 .services-content {
     background-color: #FFF1DC;
     display: flex;
-    margin-top: 5%;
-    height: 350px;
+    margin-top: 14%;
+    height: 400px;
     margin-bottom: 10%;
+    position: relative;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-text {
+    width: 50%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.services-text p {
+    padding-top: 1.5%;
+    font-size: 1.5rem;
+}
+
+.services-text h1 {
+    padding-top: 1.5%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.service-landscaping {
+    font-size: 1.5rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.service-landscaping li {
+    list-style: none;
+}
+
+.landscaping-text {
+    padding-left: 55%;
+    width: 100%;
+    padding-right: 2%;
 }
 
 .services-cleaning-images {
-    height: 450px;
+    position: absolute;
+    height: 500px;
+    top: -50px;
+    right: 50px;
 }
 
 .services-landscaping-images {
-    height: 450px;
+    position: absolute;
+    height: 500px;
+    top: -50px;
+    left: 50px;
 }
 
 .services-powerwashing-images {
-    height: 450px;
+    position: absolute;
+    height: 500px;
+    top: -50px;
+    right: 30px;
+}
+
+
+@media (max-width: 1650px) {
+
+    .services-content {
+        width: 95%;
+        height: 350px;
+
+    }
+
+    .services-text {
+        width: 50%;
+    }
+
+    .services-text p {
+        font-size: 1.3rem;
+    }
+    
+    .services-text h1 {
+        font-size: 1.7rem;
+    }
+    
+    .service-landscaping {
+        font-size: 1.3rem;
+    }
+
+    .landscaping-text {
+        padding-left: 55%;
+        width: 100%;
+        padding-right: 2%;
+    }
+
+    .services-cleaning-images {
+        height: 450px;
+        top: -50px;
+        right: 50px;
+    }
+    
+    .services-landscaping-images {
+        height: 450px;
+        top: -50px;
+        left: 30px;
+    }
+    
+    .services-powerwashing-images {
+        height: 450px;
+        top: -50px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 1450px) {
+
+    .services-content {
+        width: 95%;
+        height: 300px;
+
+    }
+
+    .services-text {
+        width: 45%;
+    }
+
+    .services-text p {
+        font-size: 1.2rem;
+    }
+    
+    .service-landscaping {
+        font-size: 1.2rem;
+    }
+
+    .landscaping-text {
+        padding-left: 55%;
+        width: 100%;
+        padding-right: 2%;
+    }
+
+
+    .services-cleaning-images {
+        height: 400px;
+        top: -50px;
+        right: 50px;
+    }
+    
+    .services-landscaping-images {
+        height: 380px;
+        top: -40px;
+        left: 20px;
+    }
+    
+    .services-powerwashing-images {
+        height: 380px;
+        top: -30px;
+        right: 5px;
+    }
+}
+
+@media (max-width: 1150px) {
+
+    .services-content {
+        width: 95%;
+        height: 250px;
+
+    }
+
+    .services-text {
+        width: 45%;
+    }
+
+    .services-text p {
+        font-size: 1rem;
+    }
+    
+    .services-text h1 {
+        font-size: 1.5rem;
+    }
+    
+    .service-landscaping {
+        font-size: 1rem;
+    }
+
+    .landscaping-text {
+        padding-left: 60%;
+        width: 100%;
+        padding-right: 2%;
+    }
+
+    .services-cleaning-images {
+        height: 350px;
+        top: -50px;
+        right: 50px;
+    }
+    
+    .services-landscaping-images {
+        height: 320px;
+        top: -40px;
+        left: 20px;
+    }
+    
+    .services-powerwashing-images {
+        height: 320px;
+        top: -30px;
+        right: 5px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .services-content {
+        width: 75%;
+        height: 100%;
+        display: block;
+    }
+
+    .services-text {
+        width: 80%;
+    }
+
+    .services-text p {
+        font-size: 1.2rem;
+    }
+    
+    .services-text h1 {
+        font-size: 1.7rem;
+    }
+    
+    .service-landscaping {
+        font-size: 1.2rem;
+    }
+
+    .landscaping-text {
+        padding-left: 2%;
+        width: 100%;
+        padding-right: 2%;
+    }
+
+    .services-cleaning-images {
+        position: initial;
+        height: 350px;
+    }
+    
+    .services-landscaping-images {
+        height: 320px;
+        position: initial;
+    }
+    
+    .services-powerwashing-images {
+        height: 320px;
+        position: initial;
+    }
 }
