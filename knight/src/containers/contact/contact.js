@@ -11,34 +11,34 @@ function Contact() {
       <h1>Contact Us</h1>
       <div className="contact-content">
         <div className="contact-text">
-          <div>
+          <div className='call-us-container'>
             <div className='call-us-information'>
-              <div>
+              <div className='call-us-name'>
                 <p><b>Carlos</b> Fuentes</p>
                 <p>+1 (703) 342-7948</p>
                 <p><b>English</b></p>
               </div>
-              <div className='call-us-information-icon'>
-                <img src={CallIcon} alt="Call Icon" className="contact-icon"/>
-                <p>Call Now!</p>
-              </div>
-            </div>
-            <div className='call-us-information'>
-              <div>
+              <div className='call-us-name'>
                 <p><b>Eva</b> Knight</p>
                 <p>+1 (571) 251-6306</p>
                 <p><b>Español</b></p>
               </div>
+            </div>
+            <div className='call-us-information'>
               <div className='call-us-information-icon'>
-                <img src={CallIcon} alt="Call Icon" className="contact-icon"/>
+                <a href='tel:703-342-7948'><img src={CallIcon} alt="Call Icon" className="contact-icon"/></a>
                 <p>Call Now!</p>
+              </div>
+              <div className='call-us-information-icon'>
+              <a href='tel:571-251-6306'><img src={CallIcon} alt="Call Icon" className="contact-icon"/></a>
+                <p>¡LLamanos ahora!</p>
               </div>
             </div>
           </div>
-          <div className='email-information'>
+          <a href='mailto: knightmultiservices@gmail.com' className='email-information'>
             <img src={EmailIcon} alt="Email Icon" className="contact-icon"/>
             <p>knightmultiservices@gmail.com</p>
-          </div>
+          </a>
           <div>
           <p>Currently serving <b>Ashburn</b> and the following areas:</p>
             <div className="service-areas">
@@ -68,8 +68,8 @@ function Contact() {
           <div className='social-media-container'>
             <p>Follow Us:</p>
             <div className='social-media-icons'>
-              <img src={FacebookIcon} alt="Facebook Icon" className="contact-icon"/>
-              <img src={InstagramIcon} alt="Instagram Icon" className="contact-icon"/>
+              <a href='#'><img src={FacebookIcon} alt="Facebook Icon" className="contact-icon"/></a>
+              <a href='#'><img src={InstagramIcon} alt="Instagram Icon" className="contact-icon"/></a>
             </div>
           </div>
         </div>

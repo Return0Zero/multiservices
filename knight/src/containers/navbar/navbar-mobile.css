@@ -1,11 +1,15 @@
-.navbar-max-width {
+.navbar-mobile-max-width {
     width: 100%;
     background-color: #323232;
     position: fixed;
     z-index: 10;
+    display: none;
+    top: 0;
+
 }
 
-.navbar-container {
+
+.navbar-mobile-container {
     max-width: 1600px;
     display: flex;
     justify-content: space-around;
@@ -17,31 +21,27 @@
     width: 200px;
 }
 
-.link-services, .link-contact {
+.mobile-link-services, .mobile-link-contact {
    
     color: white;
     text-decoration: none;
 }
 
-.link-services:visited, .link-contact:visited {
+.mobile-link-services:visited, .mobile-link-contact:visited {
     
     color: white;
     text-decoration: none;
 }
 
-.link-services-h1, .link-contact-h1 {
+.mobile-link-services-h1, .mobile-link-contact-h1 {
     font-style: normal;
     font-weight: 400;
 }
 
-.navbar-mobile {
-    display: none;
-}
 
 @media (max-width: 1300px) {
-    .navbar-container {
-        display: none;
-}
-
+    .navbar-mobile-max-width {
+        display: inline;
     
+    }
 }
