@@ -41,7 +41,7 @@ function Contact() {
           </a>
           <div>
           <p>Currently serving <b>Ashburn</b> and the following areas:</p>
-            <div className="service-areas">
+            <div className="contact-service-areas">
               <ul>
                 <li>Leesburgy</li>
                 <li>Dulles</li>

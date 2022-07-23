@@ -3,6 +3,7 @@ import CleaningCrew from '../../images/vectors/cleaning-crew.svg';
 import ThinStar from '../../images/icons/star1.svg';
 import ThickStar from '../../images/icons/star2.svg';
 import OrangeTopDesign from '../../images/vectors/orange-top-design.svg';
+import MobileOrangeTopDesign from '../../images/vectors/mobile-orange-top-design.svg';
 
 function Header() {
   return (
@@ -19,10 +20,11 @@ function Header() {
         <div className="header-text">
           <h1 className="header-h1" >We are the solution to all your cleaning and maintenance problems</h1>
           <p className="header-p">Outstanding Landscaping, Commercial and Residential Cleaning Services in the DMV area.</p>
-          <button className="header-button">Contact Us Now!</button>
+          <a className="header-button" href='#contactID'>Contact Us Now!</a>
         </div>
         <img src={CleaningCrew} alt="Cleaning Crew" className="cleaningcrew"/>
         <img src={OrangeTopDesign} alt="Orange Top Design" className="orange-top-design"/>
+        <img src={MobileOrangeTopDesign} alt="Orange Top Design" className="mobile-orange-top-design"/>
       </div>
     </div>
   );

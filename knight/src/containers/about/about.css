@@ -20,6 +20,11 @@
     padding-top: 4%;
 }
 
+.about-text-logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .orange-bottom-design {
     position: absolute;
@@ -29,9 +34,10 @@
     width: 900px;
 }
 
-.about-text-logo {
-    display: flex;
-    justify-content: space-evenly;
+.mobile-orange-bottom-design {
+    display: none;
+    position: relative;
+    z-index: -1;
 }
 
 .vertical-dark-logo {
@@ -40,10 +46,18 @@
     z-index: 9;
 }
 
+.horizontal-dark-logo {
+    display: none;
+}
+
 .service-areas {
     display: flex;
     justify-content: space-evenly;
     padding-top: 6%;
+}
+
+.service-areas li {
+    list-style: none;
 }
 
 .about-text {
@@ -53,4 +67,128 @@
 
 .about-text p {
     padding-bottom: 2%;
+}
+
+@media (max-width: 1100px) {
+    
+
+    .about-text-logo {
+        display: inline;
+    }
+
+    .about-content {
+        padding-top: 12%;
+    }
+
+
+    .orange-bottom-design {
+        display: none;
+    }
+
+    .mobile-orange-bottom-design {
+        width: 90%;
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+    }
+
+    .vertical-dark-logo {
+        display: none;
+    }
+
+    .horizontal-dark-logo {
+        position: relative;
+        z-index: 9;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6%;
+    }
+
+    .about-text {
+        width: 80%;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .about-content h2 {
+        font-size: 2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 3%;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .about-text {
+        width: 80%;
+        font-size: 1.3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .about-content h2 {
+        font-size: 1.7rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 3%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .about-text {
+        width: 80%;
+        font-size: 1.1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .about-content h2 {
+        font-size: 1.4rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 3%;
+    }
+
+    .service-areas {
+        font-size: 1.1rem;
+        margin-top: 0%;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .about-text {
+        width: 80%;
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .about-content h2 {
+        font-size: 1.2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 3%;
+    }
+
+    .service-areas {
+        font-size: 0.8rem;
+        margin-top: 0%;
+        justify-content: space-between;
+    }
+
 }

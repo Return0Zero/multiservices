@@ -12,9 +12,10 @@
 .navbar-mobile-container {
     max-width: 1600px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 1%;
     padding-bottom: 1%;
+    padding-right: 5%;
 }
 
 .logo {
@@ -38,10 +39,98 @@
     font-weight: 400;
 }
 
+.hamburger-menu, .close-menu {
+    width: 40px;
+    right: 3%;
+}
 
-@media (max-width: 1300px) {
+@media (max-width: 1100px) {
     .navbar-mobile-max-width {
         display: inline;
     
+    }
+
+    .logo {
+        width: 180px;
+        margin-left: 25%;
+    }
+
+    .navbar-mobile-container {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-mobile-max-width {
+        display: inline;
+    
+    }
+
+    .logo {
+        width: 150px;
+        margin-left: 25%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+    .close-menu {
+        width: 35px;
+        height: 35px;
+        right: 3%;
+        margin-top: 1.8%;
+    }
+
+    .hamburger-menu {
+        width: 35px;
+        height: 40px;
+        right: 3%;
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        width: 150px;
+        margin-left: 25%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+    .close-menu {
+        width: 30px;
+        height: 30px;
+        right: 3%;
+        margin-top: 1.5%;
+    }
+
+    .hamburger-menu {
+        width: 35px;
+        height: 35px;
+        right: 3%;
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo {
+        width: 125px;
+        margin-left: 25%;
+        margin-top: 7%;
+        margin-bottom: 2%;
+    }
+
+    .close-menu {
+        width: 25px;
+        height: 25px;
+        right: 3%;
+        margin-top: 2.7%;
+    }
+
+    .hamburger-menu {
+        width: 30px;
+        height: 30px;
+        right: 3%;
+        margin-top: 2%;
     }
 }
